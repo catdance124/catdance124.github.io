@@ -1,0 +1,48 @@
+body {
+  background-color: #EEEEEE;
+  padding-top: 55px;  /* navbar固定のためpadding */
+}
+.navbar{
+  font-weight: 300;
+  border-bottom: 1px solid #cccccc;
+}
+.cover {
+  background: url(images/cover-tiltshift.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 350px;
+  border-bottom: 1px solid #cccccc;
+}
+.Ycenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about{
+  background-color: #17a2b8;
+  padding: 60px 0;
+  color: #EEEEEE;
+  border-bottom: 1px solid #cccccc;
+}
+.works{
+  background-color: #708090;
+  padding: 60px 0;
+  color: #EEEEEE;
+  border-bottom: 1px solid #cccccc;
+}
+.links{
+  background-color: #9999CC;
+  padding: 60px 0;
+  color: #EEEEEE;
+  border-bottom: 1px solid #cccccc;
+}
+.fa-twitter{
+  color:#BBFFFF	;
+}
+.fa-github{
+  color:#CCCCCC;
+}
+.fa-small{
+  font-size: 0.7em;
+  margin-right: 5px;
+}
