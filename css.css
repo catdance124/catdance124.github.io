@@ -10,7 +10,7 @@ body {
   background: url(images/cover-tiltshift.png);
   background-size: cover;
   background-position: 50% 50%;
-  height: 300px;
+  height: 450px;
   border-bottom: 1px solid #cccccc;
 }
 .Ycenter{
@@ -25,19 +25,30 @@ body {
   border-bottom: 1px solid #cccccc;
   padding: 65px 0;
 }
-.works{
+.skill{
   background-color: #708090;
   padding: 0;
   color: #EEEEEE;
   border-bottom: 1px solid #cccccc;
   padding: 65px 0;
 }
-.links{
+.works{
   background-color: #9999CC;
   padding: 0;
   color: #EEEEEE;
   border-bottom: 1px solid #cccccc;
   padding: 65px 0;
+}
+.links{
+  background-color: #708090;
+  padding: 0;
+  color: #EEEEEE;
+  border-bottom: 1px solid #cccccc;
+  padding: 65px 0;
+}
+.fa-small{
+  font-size: 0.6em;
+  margin-right: 4px;
 }
 .fa-twitter{
   color:#BBFFFF	;
@@ -45,11 +56,28 @@ body {
 .fa-github{
   color:#CCCCCC;
 }
-.fa-small{
-  font-size: 0.6em;
-  margin-right: 4px;
+.fa-python{
+  color:#FFCC33;
+}
+.fa-google{
+  color:#3399FF;
+}
+.fa-file-code{
+  color:#6699CC;
+}
+.fa-js-square{
+  color:#CC99FF;
+}
+.fa-html5{
+  color:#FF9900;
+}
+.fa-java{
+  color:#FF9900;
 }
 .contact{
   background-color: #333333;
   color:#FFDDFF;
+}
+.fa-margin-right{
+  margin-right: 6px;
 }
