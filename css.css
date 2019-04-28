@@ -10,7 +10,7 @@ body {
   background: url(images/cover-tiltshift.png);
   background-size: cover;
   background-position: 50% 50%;
-  height: 350px;
+  height: 300px;
   border-bottom: 1px solid #cccccc;
 }
 .Ycenter{
@@ -20,21 +20,24 @@ body {
 }
 .about{
   background-color: #17a2b8;
-  padding: 60px 0;
+  padding: 0;
   color: #EEEEEE;
   border-bottom: 1px solid #cccccc;
+  padding: 65px 0;
 }
 .works{
   background-color: #708090;
-  padding: 60px 0;
+  padding: 0;
   color: #EEEEEE;
   border-bottom: 1px solid #cccccc;
+  padding: 65px 0;
 }
 .links{
   background-color: #9999CC;
-  padding: 60px 0;
+  padding: 0;
   color: #EEEEEE;
   border-bottom: 1px solid #cccccc;
+  padding: 65px 0;
 }
 .fa-twitter{
   color:#BBFFFF	;
@@ -43,8 +46,8 @@ body {
   color:#CCCCCC;
 }
 .fa-small{
-  font-size: 0.7em;
-  margin-right: 5px;
+  font-size: 0.6em;
+  margin-right: 4px;
 }
 .contact{
   background-color: #333333;
