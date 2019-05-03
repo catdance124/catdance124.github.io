@@ -1,5 +1,4 @@
 body {
-  background-color: #EEEEEE;
   padding-top: 55px;  /* navbar固定のためpadding */
 }
 .navbar{
@@ -10,20 +9,33 @@ body {
   background: url(images/cover-tiltshift.png);
   background-size: cover;
   background-position: 50% 50%;
-  height: 450px;
+  height: 350px;
   border-bottom: 1px solid #cccccc;
 }
-.Ycenter{
+.vertical_center{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.bottom_line{
+  display:inline-block;
+  text-align:center;
+  border-bottom: 2px ridge #FF9900;
 }
 .about{
   background-color: #17a2b8;
   padding: 0;
   color: #EEEEEE;
+  /* border-bottom: 1px solid #cccccc; */
+  padding-top: 65px;
+}
+.links{
+  background-color: #17a2b8;
+  padding: 0;
+  color: #EEEEEE;
   border-bottom: 1px solid #cccccc;
-  padding: 65px 0;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 .skill{
   background-color: #708090;
@@ -33,27 +45,22 @@ body {
   padding: 65px 0;
 }
 .works{
-  background-color: #9999CC;
+  background-color: #996666;
   padding: 0;
   color: #EEEEEE;
   border-bottom: 1px solid #cccccc;
   padding: 65px 0;
 }
-.links{
-  background-color: #708090;
-  padding: 0;
-  color: #EEEEEE;
-  border-bottom: 1px solid #cccccc;
-  padding: 65px 0;
-}
+
+/* font awesome */
 .fa-small{
   font-size: 0.6em;
   margin-right: 4px;
 }
-.fa-twitter{
+.nav-twi{
   color:#BBFFFF	;
 }
-.fa-github{
+.nav-github{
   color:#CCCCCC;
 }
 .fa-python{
@@ -71,12 +78,8 @@ body {
 .fa-html5{
   color:#FF9900;
 }
-.fa-java{
-  color:#FF9900;
-}
-.contact{
-  background-color: #333333;
-  color:#FFDDFF;
+.fa-server{
+  color: #17a2b8;
 }
 .fa-margin-right{
   margin-right: 6px;
