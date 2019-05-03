@@ -42,7 +42,7 @@
       </nav>
     </div>
     <!-- cover -->
-    <div class="cover text-white text-center vertical_center">
+    <div class="cover text-white text-center just_center">
       <span class="display-3">kinosi's portfolio</span>
     </div>
   </header>
@@ -53,7 +53,7 @@
         <h1 class="bottom_line" style="color: #ffffff;">About ME</h1>
       </div>
       <div class="row mx-auto" style="max-width: 75rem;">
-        <div class="col-md-4 offset-md-2 col-5 offset-1 mt-5 mb-4 vertical_center">
+        <div class="col-md-4 offset-md-2 col-5 offset-1 mt-5 mb-4 just_center">
           <a href="#links">
             <img class="img-thumbnail rounded-circle" src="https://pbs.twimg.com/profile_images/1016115485090312192/6AuF6XN0_400x400.jpg"
               width="200px">
@@ -300,19 +300,30 @@
       </div>
     </div>
     <!-- WORKS -->
-    <div class="works container-fluid text-center" id="works">
+    <div class="works container-fluid" id="works">
       <div class="text-center mb-5">
         <h1 class="bottom_line" style="color: #ffffff;">Works</h1>
       </div>
-      <div class="container-fluid" style="max-width: 75rem;">
+      <div class="container-fluid" style="max-width: 80rem;">
         <div class="row mx-auto">
-          <div class="col-md-6 col-lg-4">
-            <div class="card border-primary mb-3">
+          <div class="col-md-6 col-xl-4">
+            <div class="card border-secondary mb-3">
               <img class="card-img-top" src="images/radar.png" alt="radar echo intensity">
-              <div class="card-body text-primary">
-                <h4 class="card-title">Coming soon...</h4>
-                <p class="card-text">Coming soon...</p>
-                <button class="btn btn-outline-primary btn-sm" disabled>Disabled</button>
+              <div class="card-body text-dark">
+                <h5 class="card-title">レーダーエコー画像作成スクリプト</h5>
+                <p class="card-text">気象画像解析を行うために，画像を作成するスクリプトを作成しました．subprocessモジュールを用いることでOSコマンド・外部プログラムを実行し，Pythonによるレーダーエコー画像の作成を実現しました．</p>
+                <div class="card">
+                  <div class="card-header bg-info text-white vertical_center" style="height:35px;">python</div>
+                  <div class="card-body">
+                      <button type="button" class="btn btn-outline-dark btn-sm">subprocess</button>
+                      <button type="button" class="btn btn-outline-dark btn-sm">configparser</button>
+                      <button type="button" class="btn btn-outline-dark btn-sm">Basemap</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer text-right bg-dark">
+                <a class="btn btn-success btn-sm" href="https://qiita.com/kinosi/items/56b664d9a10d35b4a183" role="button">Qiita</a>
+                <a class="btn btn-secondary btn-sm" href="https://github.com/catdance124/synthetic_radar_GPV" role="button">github</a>
               </div>
             </div>
           </div>

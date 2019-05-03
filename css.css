@@ -12,10 +12,14 @@ body {
   height: 350px;
   border-bottom: 1px solid #cccccc;
 }
-.vertical_center{
+.just_center{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.vertical_center{
+  display: flex;
+  align-items: center;
 }
 .bottom_line{
   display:inline-block;
