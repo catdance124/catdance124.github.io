@@ -24,7 +24,7 @@ body {
 .bottom_line{
   display:inline-block;
   text-align:center;
-  border-bottom: 4px ridge #FF9900;
+  border-bottom: 2px ridge #FF9900;
 }
 .about{
   background-color: #17a2b8;
