@@ -383,12 +383,6 @@
               <div class="card-body text-dark">
                 <h5 class="card-title font-weight-bold">リマインドメール自動化</h5>
                 <p class="card-text">翌日行われるゼミのリマインド担当者に，フォーマット（文面・各役職）が記載されたメールを自動送信するシステムを作成しました．リマインドの送り忘れがなくなり，担当を決める手間を省くことができました．</p>
-                <!--研究室で行われる複数のゼミでは，前日に日程・ゼミ内容・司会・議事録を記述した
-                    リマインドメールを送信する必要がありました．ゼミ参加メンバーの内誰が送るかを
-                    順番に決めても送り忘れることがあったため，GoogleAppsScriptを用いてカレンダ
-                    ーから予定を取得し，ゼミ前日にリマインド担当にリマインドを促すメールを送信す
-                    るようなシステムを作成しました．また，メールには各役職が事前に割り振られた通
-                    りに記載されているので，ゼミ内容のみを書き換えるだけで済むようになりました． -->
                 <div class="card">
                   <div class="card-header text-white vertical_center" style="height:35px; background-color: #3399FF">Google Apps Script</div>
                   <div class="card-body">
@@ -408,13 +402,7 @@
               <img class="card-img-top" src="images/seat.png" alt="seat">
               <div class="card-body text-dark">
                 <h5 class="card-title font-weight-bold">ランダム席替えBOT</h5>
-                <p class="card-text">ゼミ中の議論活発化を狙い，毎回ランダムで座席を決めるシステムを作成しました．当初はSpreadSheetに書き込んでいましたが，REST APIを利用しrocket chatに画像として送信するようにしました．</p>
-                <!--研究室で行われるゼミに参加するメンバーは，学年ごとに固まって席に座る傾向があ
-                    り，議論が活発に行えていませんでした．そこで，座席をランダムで決め，メンバー
-                    にその席に座ってもらうようなシステムを作成しました．GoogleAppsScriptを用い
-                    てGoogleスプレッドシートに座席表を書き込むようにしました．さらに，pdfとして
-                    取得し外部サービスを用いてpdfからpngへと変換を行い，rocket chat（研究室内
-                    slackのようなもの）APIを利用してrocket chatへ自動的に送信するようにしました． -->
+                <p class="card-text">ゼミ中の議論活発化を狙い，毎回ランダムで座席を決めるシステムを作成しました．当初はSpreadSheetに書き込んでいましたが，REST APIを利用し研究室内rocket chatに画像として送信するようにしました．</p>
                 <div class="card">
                   <div class="card-header text-white vertical_center" style="height:35px; background-color: #3399FF">Google Apps Script</div>
                   <div class="card-body">
