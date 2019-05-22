@@ -337,7 +337,7 @@
           </div>
           <div class="col-md-6 col-xl-4">
             <div class="card border-secondary mb-3">
-              <img class="card-img-top" src="images/chat.png" alt="simple chat" style="border-bottom: 2px solid #bbbbbb;">
+              <img class="card-img-top" src="images/chat.png" alt="simple chat" style="border-bottom: 1px solid #bbbbbb;">
               <div class="card-body text-dark">
                 <h5 class="card-title font-weight-bold">docomoAPIを利用したチャットBOT</h5>
                 <p class="card-text"><a href="https://dev.smt.docomo.ne.jp/?p=docs.api.page&api_name=natural_dialogue&p_name=api_usage_scenario">
@@ -374,6 +374,57 @@
               <div class="card-footer text-right bg-dark">
                 <a class="btn btn-info btn-sm" href="https://catdance124.github.io/" role="button">Portfolio</a>
                 <a class="btn btn-secondary btn-sm" href="https://github.com/catdance124/catdance124.github.io" role="button">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="card border-secondary mb-3">
+              <img class="card-img-top" src="images/remind.png" alt="remind"  style="border-bottom: 1px solid #bbbbbb;">
+              <div class="card-body text-dark">
+                <h5 class="card-title font-weight-bold">リマインドメール自動化</h5>
+                <p class="card-text">翌日行われるゼミのリマインド担当者に，フォーマット（文面・各役職）が記載されたメールを自動送信するシステムを作成しました．リマインドの送り忘れがなくなり，担当を決める手間を省くことができました．</p>
+                <!--研究室で行われる複数のゼミでは，前日に日程・ゼミ内容・司会・議事録を記述した
+                    リマインドメールを送信する必要がありました．ゼミ参加メンバーの内誰が送るかを
+                    順番に決めても送り忘れることがあったため，GoogleAppsScriptを用いてカレンダ
+                    ーから予定を取得し，ゼミ前日にリマインド担当にリマインドを促すメールを送信す
+                    るようなシステムを作成しました．また，メールには各役職が事前に割り振られた通
+                    りに記載されているので，ゼミ内容のみを書き換えるだけで済むようになりました． -->
+                <div class="card">
+                  <div class="card-header text-white vertical_center" style="height:35px; background-color: #3399FF">Google Apps Script</div>
+                  <div class="card-body">
+                      <button type="button" class="btn btn-outline-dark btn-sm">SpreadSheet</button>
+                      <button type="button" class="btn btn-outline-dark btn-sm">Calendar</button>
+                      <button type="button" class="btn btn-outline-dark btn-sm">Gmail</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer text-right bg-dark">
+                <div class="btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="card border-secondary mb-3">
+              <img class="card-img-top" src="images/seat.png" alt="seat">
+              <div class="card-body text-dark">
+                <h5 class="card-title font-weight-bold">ランダム席替えBOT</h5>
+                <p class="card-text">ゼミ中の議論活発化を狙い，毎回ランダムで座席を決めるシステムを作成しました．当初はSpreadSheetに書き込んでいましたが，REST APIを利用しrocket chatに画像として送信するようにしました．</p>
+                <!--研究室で行われるゼミに参加するメンバーは，学年ごとに固まって席に座る傾向があ
+                    り，議論が活発に行えていませんでした．そこで，座席をランダムで決め，メンバー
+                    にその席に座ってもらうようなシステムを作成しました．GoogleAppsScriptを用い
+                    てGoogleスプレッドシートに座席表を書き込むようにしました．さらに，pdfとして
+                    取得し外部サービスを用いてpdfからpngへと変換を行い，rocket chat（研究室内
+                    slackのようなもの）APIを利用してrocket chatへ自動的に送信するようにしました． -->
+                <div class="card">
+                  <div class="card-header text-white vertical_center" style="height:35px; background-color: #3399FF">Google Apps Script</div>
+                  <div class="card-body">
+                  <button type="button" class="btn btn-outline-dark btn-sm">SpreadSheet</button>
+                  <button type="button" class="btn btn-outline-dark btn-sm">REST API</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer text-right bg-dark">
+                <a class="btn btn-secondary btn-sm" href="https://github.com/catdance124/RocketChatAPI_fromGAS" role="button">GitHub</a>
               </div>
             </div>
           </div>
