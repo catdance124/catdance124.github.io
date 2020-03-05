@@ -81,7 +81,14 @@
           </div>
           <div class="col-lg-2 col-sm-4 py-2">
             <h3>Age</h3>
-            <p>22 (Birth:1996/11/24)</p>
+            <p>
+            <script>
+              let now = new Date();
+              let date = ( now.getFullYear() * 10000 ) + (( now.getMonth() + 1 ) * 100 ) + now.getDate();
+              document.write(Math.floor((date - 19961124) / 10000));
+            </script>
+            (Birth:1996/11/24)
+            </p>
           </div>
           <div class="col-lg-2 col-sm-4 py-2">
             <h3>Position</h3>
@@ -97,7 +104,7 @@
           </div>
           <div class="col-lg-2 col-sm-4 py-2">
             <h3>Hobby</h3>
-            <p>Movies, Youtube, Twitter</p>
+            <p>Movies, Twitter, 家計簿</p>
           </div>
         </div>
       </div>
@@ -112,7 +119,7 @@
             <ul class="list-group my-3">
               <h3 class="text-center">Personal</h3>
               <li class="list-group-item list-group-item-action"><i class="far fa-envelope fa-fw"></i>
-                contact: <code>`kinosi.cat{at}gmail.com` at='@'</code></li>
+                E-mail: <code>`kinosi.cat{at}gmail.com` at='@'</code></li>
               <li class="list-group-item list-group-item-action"><i class="fab fa-twitter fa-fw"></i>
                 Twitter: <a href="https://twitter.com/catdance124">@catdance124</a></li>
               <li class="list-group-item list-group-item-action"><i class="fab fa-instagram fa-fw"></i>
@@ -146,13 +153,13 @@
             <div class="card border-secondary mb-5">
               <div class="card-header bg-dark text-white text-center">
                 <h5><i class="fab fa-python fa-margin-right"></i>Python3</h5>
-                経験: 2年&nbsp;/&nbsp;スキル: <span class="text-warning">★★★★★</span>
+                経験: 3年&nbsp;/&nbsp;スキル: <span class="text-warning">★★★★★</span>
               </div>
               <div class="card-body bg-light">
                 <p class="card-text text-dark">
-                  <b>研究に使用している言語</b>です．ディープラーニング用フレームワークを利用し，ニューラルネットワークモデルの実装を行っています．
-                  画像データやテーブルデータなど基本的なデータ処理を行うことができ，データ分析コンペティションに参加しました．
-                  また，フレームワークを活用してWEBアプリケーションを作成しています．
+                  <b>研究で使用している言語</b>です．ディープラーニング用フレームワークを利用し，ニューラルネットワークモデルの実装を行っています．
+                  画像データやテーブルデータなど基本的なデータ処理を行うことができます．
+                  データ分析コンペティションに参加したり，Flaskを活用したWEBアプリケーションを作成したりしています．
                 </p>
               </div>
             </div>
@@ -161,7 +168,7 @@
             <div class="card border-secondary mb-5">
               <div class="card-header bg-dark text-white text-center">
                 <h5><i class="fab fa-google fa-margin-right"></i>Google Apps Script</h5>
-                経験: 1.5年&nbsp;/&nbsp;スキル: <span class="text-warning">★★★★</span>☆
+                経験: 2年&nbsp;/&nbsp;スキル: <span class="text-warning">★★★★</span>☆
               </div>
               <div class="card-body bg-light">
                 <p class="card-text text-dark">
@@ -175,12 +182,12 @@
             <div class="card border-secondary mb-5">
               <div class="card-header bg-dark text-white text-center">
                 <h5><i class="fas fa-server fa-margin-right"></i>インフラ</h5>
-                経験: 1.5年&nbsp;/&nbsp;スキル: <span class="text-warning">★★★</span>☆☆
+                経験: 2年&nbsp;/&nbsp;スキル: <span class="text-warning">★★★</span>☆☆
               </div>
               <div class="card-body bg-light">
                 <p class="card-text text-dark">
-                  <b>研究室サーバの管理</b>に携わっています．CentOS上でApache，Samba，gitLab，Subversion，RocketChatなど各種サーバの構築・運用を行っています．
-                  firewallやSE-Linuxを活用した，よりセキュアな設定で構築することを意識しています．
+                  <b>研究室サーバの管理</b>に携わっており，CentOS上でApache，Samba，gitLab，Subversion，RocketChatなど各種サーバの構築・運用を行っています．
+                  また，インターンにて監視サーバ構築・運用，トラブルシューティングを経験しました．
                   <br>
                   研究室インフラ関係の記事は<a href="https://catdance124.hatenablog.jp/archive/category/%E3%82%B5%E3%83%BC%E3%83%90">ここ</a>で書いています．
                 </p>
@@ -195,8 +202,9 @@
               </div>
               <div class="card-body bg-light">
                 <p class="card-text text-dark">
-                  C++を用いて<b>競技プログラミング</b>に取り組んでおり，基本的な処理を行うことができます．また，Cを用いて遺伝的アルゴリズムの実装を行いました．
-                  大学の講義では，OpenGLライブラリであるGLUTを用いてゲームを作成しました．
+                  C++を用いて<b>競技プログラミング</b>に取り組んでおり，基本的な処理を行うことができます．
+                  また，Cを用いて<a href="https://github.com/catdance124/Differential_Evolution">遺伝的アルゴリズムの実装</a>を行いました．
+                  大学の講義では，OpenGLライブラリであるGLUTを用いて<a href="https://github.com/catdance124/PacMan-like_game">ゲームを作成</a>しました．
                 </p>
               </div>
             </div>
@@ -205,11 +213,13 @@
             <div class="card border-secondary mb-5">
               <div class="card-header bg-dark text-white text-center">
                 <h5><i class="fab fa-html5 fa-margin-right"></i>HTML + CSS / Bootstrap4</h5>
-                経験: 0.5年&nbsp;/&nbsp;スキル: <span class="text-warning">★★★</span>☆☆
+                経験: 1年&nbsp;/&nbsp;スキル: <span class="text-warning">★★★</span>☆☆
               </div>
               <div class="card-body bg-light">
                 <p class="card-text text-dark">
-                  簡単なWEBページを作成することができます．CSSフレームワークであるBootstrap4を使うことができます．このポートフォリオもHTML+Bootstrap4で構成されています．
+                  簡単なWEBページを作成することができます．
+                  CSSフレームワークであるBootstrap4を使うことができます．
+                  このポートフォリオもHTML+Bootstrap4で構成されています．
                 </p>
               </div>
             </div>
@@ -233,9 +243,19 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Git / GitHub / GitLab</td>
+                      <td>Javascript</td>
                       <td>1.5年</td>
-                      <td><span class="text-warning">★★★★</span>☆</td>
+                      <td><span class="text-warning">★★★</span>☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>Git / GitHub / GitLab</td>
+                      <td>2年</td>
+                      <td><span class="text-warning">★★★</span>☆☆</td>
+                    </tr>
+                    <tr>
+                      <td>bash</td>
+                      <td>2年</td>
+                      <td><span class="text-warning">★★★</span>☆☆</td>
                     </tr>
                     <tr>
                       <td>slack / rocket chat</td>
@@ -243,13 +263,8 @@
                       <td><span class="text-warning">★★★★</span>☆</td>
                     </tr>
                     <tr>
-                      <td>bash</td>
-                      <td>1.5年</td>
-                      <td><span class="text-warning">★★★</span>☆☆</td>
-                    </tr>
-                    <tr>
                       <td>Tex</td>
-                      <td>1年</td>
+                      <td>2年</td>
                       <td><span class="text-warning">★★</span>☆☆☆</td>
                     </tr>
                   </tbody>
