@@ -38,3 +38,9 @@ footer h5 {
   margin-top: 36px;
   margin-bottom: 36px;
 }
+.author {
+  color: #5b2503;
+}
+ul.publications li {
+  margin-bottom: 12px;
+  }
