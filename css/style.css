@@ -1,6 +1,6 @@
-body{
+body {
   background-color: white;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   border: 2px solid white;
   border-radius: 30px;
   margin-left: auto;
@@ -16,14 +16,14 @@ img {
   border: 4px solid white;
   border-radius: 20px;
 }
-.just_center{
+.just_center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-html{
-    background-color: whitesmoke;
-    background-size: 8px 8px;
+html {
+  background-color: whitesmoke;
+  background-size: 8px 8px;
 }
 footer {
   clear: both;
@@ -32,9 +32,9 @@ footer {
   border-radius: 16px;
 }
 footer h5 {
-    text-align: center;
+  text-align: center;
 }
-.main{
+.main {
   margin-top: 36px;
   margin-bottom: 36px;
 }
@@ -43,4 +43,4 @@ footer h5 {
 }
 ul.publications li {
   margin-bottom: 12px;
-  }
+}
